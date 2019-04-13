@@ -6,5 +6,3 @@ class Dog
     @Fido
   end
 end
-
-
