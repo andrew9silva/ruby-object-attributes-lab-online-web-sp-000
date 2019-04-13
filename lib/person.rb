@@ -5,8 +5,18 @@ class Person
   def name
     @name
   end
+  def job=(persons_job)
+    @job = persons_job
+  end
+  def job
+    @job
+  end
 end
 
 beyonce = Person.new
 beyonce.name = "Beyonce"
 puts beyonce.name
+
+singer = Person.new
+singer.job = "Singer"
+puts singer.job
