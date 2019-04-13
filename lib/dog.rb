@@ -20,3 +20,6 @@ puts fido.name
 beagle = Dog.new
 beagle.breed = "Beagle"
 puts beagle.breed
+
+class Person
+end
